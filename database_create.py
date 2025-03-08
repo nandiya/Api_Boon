@@ -1,7 +1,5 @@
-import requests
-from sqlalchemy import create_engine, Column, Integer, String, Boolean, DateTime, ForeignKey, Text, Enum
-from sqlalchemy.orm import declarative_base, relationship
-from sqlalchemy.dialects.postgresql import ARRAY
+from sqlalchemy import create_engine, Column, Integer, String, Boolean, DateTime, ForeignKey, Text
+from sqlalchemy.orm import declarative_base
 
 Base = declarative_base()
 
